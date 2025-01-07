@@ -1,0 +1,21 @@
+name: xacthucotp
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.8.1  # Phiên bản mới nhất của firebase_core
+  firebase_auth: ^5.3.4 # Phiên bản tương thích
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
